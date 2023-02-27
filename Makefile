@@ -32,8 +32,8 @@ DEVENV_PROJECT_NAME := apitable-devenv
 export DEVENV_PROJECT_NAME
 endif
 
-_DATAENV := docker compose --env-file $$ENV_FILE -p $$DEVENV_PROJECT_NAME -f docker-compose.yaml -f docker-compose.dataenv.yaml
-_DEVENV := docker compose --env-file $$ENV_FILE -p $$DEVENV_PROJECT_NAME -f docker-compose.devenv.yaml
+_DATAENV := docker-compose --env-file $$ENV_FILE -p $$DEVENV_PROJECT_NAME -f docker-compose.yaml -f docker-compose.dataenv.yaml
+_DEVENV := docker-compose --env-file $$ENV_FILE -p $$DEVENV_PROJECT_NAME -f docker-compose.devenv.yaml
 
 OS_NAME := $(shell uname -s | tr A-Z a-z)
 ifeq ($(OS_NAME), darwin)
@@ -144,7 +144,7 @@ SIKP_INITDB=false
 
 _test_init_db:
 	@echo "${YELLOW}init-db initializing..${RESET}"
-	docker compose -f docker-compose.unit-test.yaml run -u $(shell id -u):$(shell id -g) --rm \
+	docker-compose -f docker-compose.unit-test.yaml run -u $(shell id -u):$(shell id -g) --rm \
     	-e DB_HOST=test-mysql \
     	test-initdb
 	@echo "${GREEN}initialize unit test db completed...${RESET}"
@@ -153,13 +153,13 @@ _test_clean: ## clean the docker in test step
 	docker rm -fv $$(docker ps -a --filter "name=test-.*" --format "{{.ID}}") || true
 
 _test_dockers: ## run depends container in test step
-	docker compose -f docker-compose.unit-test.yaml up -d test-mysql ;\
-	docker compose -f docker-compose.unit-test.yaml up -d test-redis ;\
-	docker compose -f docker-compose.unit-test.yaml up -d test-rabbitmq
+	docker-compose -f docker-compose.unit-test.yaml up -d test-mysql ;\
+	docker-compose -f docker-compose.unit-test.yaml up -d test-redis ;\
+	docker-compose -f docker-compose.unit-test.yaml up -d test-rabbitmq
 
 test-ut-room-local:
 	make _test_clean
-	docker compose -f docker-compose.unit-test.yaml up -d test-redis test-mysql test-rabbitmq
+	docker-compose -f docker-compose.unit-test.yaml up -d test-redis test-mysql test-rabbitmq
 ifeq ($(SIKP_INITDB),false)
 	sleep 20
 	make _test_init_db
@@ -174,13 +174,13 @@ endif
 
 test-ut-room-docker:
 	@echo "${LIGHTPURPLE}Working dir, $(shell pwd)${RESET}"
-	@echo "${LIGHTPURPLE}$$(docker compose version)${RESET}"
+	@echo "${LIGHTPURPLE}$$(docker-compose version)${RESET}"
 	make _test_clean
 	make _test_dockers
 	sleep 20
 	make _test_init_db
-	docker compose -f docker-compose.unit-test.yaml build unit-test-room
-	docker compose -f docker-compose.unit-test.yaml run --rm \
+	docker-compose -f docker-compose.unit-test.yaml build unit-test-room
+	docker-compose -f docker-compose.unit-test.yaml run --rm \
 		-e MYSQL_HOST=test-mysql \
 		-e REDIS_HOST=test-redis \
 		-e RABBITMQ_HOST=test-rabbitmq \
@@ -197,9 +197,9 @@ _clean_room_jest_coverage:
 ###### 【backend server unit test】 ######
 
 test-ut-backend-docker:
-	@echo "$$(docker compose version)"
+	@echo "$$(docker-compose version)"
 	make _test_clean
-	docker compose -f docker-compose.ut-backend.yaml up -d
+	docker-compose -f docker-compose.ut-backend.yaml up -d
 	make test-ut-backend
 	@echo "${GREEN}finished unit test, clean up images...${RESET}"
 	make _test_clean
@@ -313,7 +313,7 @@ endef
 export DEVENV_TXT
 
 .PHONY: devenv
-devenv: ## debug all devenv services with docker compose up -d
+devenv: ## debug all devenv services with docker-compose up -d
 	@echo "$$DEVENV_TXT"
 	@read -p "ENTER THE NUMBER: " DEVENV_NUMBER ;\
  	if [ "$$DEVENV_NUMBER" = "0" ]; then make devenv-up; fi ;\
@@ -327,7 +327,7 @@ devenv-up:
 	$(_DEVENV) up -d
 
 .PHONY: devenv-down
-devenv-down: ## debug all devenv services with docker compose up -d
+devenv-down: ## debug all devenv services with docker-compose up -d
 	$(_DEVENV) down -v --remove-orphans
 
 devenv-logs: ## follow all devenv services logs
@@ -427,21 +427,21 @@ dataenv-logs:
 .PHONY: up
 up: _dataenv-volumes ## startup the application
 	@echo "Please execute 'make pull' first to download & upgrade all images to your machine."
-	docker compose up -d
+	docker-compose up -d
 
 .PHONY: down
 down: ## shutdown the application
-	docker compose down -v --remove-orphans
+	docker-compose down -v --remove-orphans
 
 .PHONY:ps
-ps: ## docker compose ps
-	docker compose ps
+ps: ## docker-compose ps
+	docker-compose ps
 
 ### docker stuffs
 
 .PHONY: pull
 pull: ## pull all containers and ready to up
-	docker compose pull
+	docker-compose pull
 
 ######################################## init-db
 
