@@ -18,7 +18,7 @@ services:
       - HOME=/tmp
     networks:
       - apitable
-    command: sh -c "./gradlew build -x test && java -jar application/build/libs/application.jar"
+    command: sh -c "./gradlew build -Dorg.gradle.internal.http.socketTimeout=200000  -x test && java -jar application/build/libs/application.jar"
 
   web-server:
     image: apitable/devenv:latest

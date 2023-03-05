@@ -106,7 +106,7 @@ _build-web:
 	yarn build:dst
 
 _build-java:
-	cd backend-server && ./gradlew build -x test --stacktrace
+	cd backend-server && ./gradlew build -Dorg.gradle.internal.http.socketTimeout=200000  -x test --stacktrace
 
 _build-core: ## build core
 	yarn workspaces focus @apitable/core @apitable/i18n-lang root
@@ -281,7 +281,7 @@ _run-local-backend-server:
 	source scripts/export-env.sh $$ENV_FILE;\
 	source scripts/export-env.sh $$DEVENV_FILE;\
 	cd backend-server ;\
-	./gradlew build -x test ;\
+	./gradlew build -Dorg.gradle.internal.http.socketTimeout=200000  -x test ;\
 	MYSQL_HOST=127.0.0.1 \
 	REDIS_HOST=127.0.0.1 \
 	RABBITMQ_HOST=127.0.0.1 \
@@ -356,7 +356,7 @@ install: install-local
 .PHONY: install-local
 install-local: ## install all dependencies with local programming language environment
 	yarn install && yarn build:dst:pre
-	cd backend-server && ./gradlew build -x test --stacktrace
+	cd backend-server && ./gradlew build -Dorg.gradle.internal.http.socketTimeout=200000  -x test --stacktrace
 
 .PHONY: install-docker
 install-docker: _install-docker-web-server _install-docker-backend-server _install-docker-room-server ## install all dependencies with docker devenv
@@ -364,7 +364,7 @@ install-docker: _install-docker-web-server _install-docker-backend-server _insta
 
 .PHONY: _install-docker-backend-server
 _install-docker-backend-server:
-	$(RUNNER) backend-server ./gradlew build -x test
+	$(RUNNER) backend-server ./gradlew build -Dorg.gradle.internal.http.socketTimeout=200000  -x test
 
 .PHONY: _install-docker-web-server
 _install-docker-web-server:

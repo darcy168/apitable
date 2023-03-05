@@ -2,7 +2,7 @@ FROM amazoncorretto:8 AS builder
 
 WORKDIR /app
 COPY ./backend-server/. .
-RUN ./gradlew build -x test
+RUN ./gradlew build -Dorg.gradle.internal.http.socketTimeout=200000  -x test
 
 
 FROM amazoncorretto:8
