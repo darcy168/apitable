@@ -17,12 +17,22 @@ COPY --from=imageproxy-server /app/ /app/imageproxy-server/
 COPY --from=init-db /liquibase/changelog/ /liquibase/changelog/
 COPY --from=init-appdata /app/ /app/init-appdata/
 
-RUN set -euxo pipefail; \
-  curl -LO https://github.com/Automattic/node-canvas/releases/download/v2.9.1/canvas-v2.9.1-node-v93-linux-glibc-x64.tar.gz; \
-  tar -xzf canvas-v2.9.1-node-v93-linux-glibc-x64.tar.gz; \
+#RUN set -euxo pipefail; \
+#  curl -LO https://github.com/Automattic/node-canvas/releases/download/v2.9.1/canvas-v2.9.1-node-v93-linux-glibc-x64.tar.gz; \
+#  tar -xzf canvas-v2.9.1-node-v93-linux-glibc-x64.tar.gz; \
+#  rm -rf /app/web-server/node_modules/canvas/build/Release; \
+#  mv Release /app/web-server/node_modules/canvas/build/; \
+#  rm -f canvas-v2.9.1-node-v93-linux-glibc-x64.tar.gz
+
+COPY canvas-v2.9.1-node-v93-linux-glibc-x64.tar.gz /
+
+RUN pwd; \
+  ls -lh /; \
+  set -euxo pipefail; \
+  tar -xzf /canvas-v2.9.1-node-v93-linux-glibc-x64.tar.gz; \
   rm -rf /app/web-server/node_modules/canvas/build/Release; \
-  mv Release /app/web-server/node_modules/canvas/build/; \
-  rm -f canvas-v2.9.1-node-v93-linux-glibc-x64.tar.gz
+  mv /Release /app/web-server/node_modules/canvas/build/;
+
 
 COPY gateway/conf.d/ /etc/nginx/conf.d/
 
