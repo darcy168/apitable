@@ -67,6 +67,7 @@ import { getDatasheetOrLoad } from 'pc/utils/get_datasheet_or_load';
 import { loadRecords } from 'pc/utils/load_records';
 import { getOptionNameColor, inquiryValueByKey } from '../components/cell';
 import {
+  GRID_CELL_ABBR_MIN_WIDTH,
   GRID_CELL_ADD_ITEM_BUTTON_SIZE,
   GRID_CELL_ATTACHMENT_ITEM_MARGIN_LEFT,
   GRID_CELL_ATTACHMENT_PADDING,
@@ -542,19 +543,25 @@ export class CellHelper extends KonvaDrawer {
   private renderCellDateTime(renderProps: IRenderProps, ctx?: any) {
     const { x, y, cellValue, field, columnWidth, style, callback } = renderProps;
     const cellString = Field.bindModel(field).cellValueToString(cellValue);
-    const [date, time, timeRule] = cellString ? cellString.split(' ') : [];
+    const [date, time, timeRule, abbr] = cellString ? cellString.split(' ') : [];
     let cellText = date;
+    let abbrWidth = 0;
 
     if (time != null) {
       cellText = `${date} ${time}`;
     }
     if (timeRule != null) {
-      cellText = `${date} ${time} ${timeRule}`;
+      if (abbr != null) {
+        cellText = `${date} ${time} ${timeRule} ${abbr}`;
+        abbrWidth = GRID_CELL_ABBR_MIN_WIDTH;
+      } else {
+        cellText = `${date} ${time} ${timeRule}`;
+      }
     }
 
     if (cellText == null) return DEFAULT_RENDER_DATA;
 
-    const textMaxWidth = columnWidth - 2 * GRID_CELL_VALUE_PADDING;
+    const textMaxWidth = columnWidth - 2 * GRID_CELL_VALUE_PADDING - abbrWidth;
     const { text, textWidth } = this.textEllipsis({ text: cellText, maxWidth: columnWidth && textMaxWidth });
     if (ctx) {
       const color = style?.color || colors.firstLevelText;
