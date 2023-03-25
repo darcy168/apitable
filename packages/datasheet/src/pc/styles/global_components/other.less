@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--fc4);
 }
 
+.ant-radio {
+  top: 0.2em;
+}
+
 .am-picker-col-item,
 .adm-auto-center-content,
 .cp-time-picker,
@@ -22,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--fc1);
 }
 
+.ant-picker-separator,
 .ant-progress-text {
   color: var(--fc1) !important;
 }
@@ -194,6 +199,10 @@ circle.ant-progress-circle-trail {
   background-color: transparent;
 }
 
+.ant-select-tree-node-content-wrapper.ant-select-tree-node-selected {
+  background-color: transparent;
+}
+
 .ant-select-tree {
   box-shadow: none;
 }
@@ -233,9 +242,21 @@ button:focus-visible {
   background: var(--defaultBg);
 }
 
+@keyframes loading {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.circle-loading {
+  animation: loading 1s linear infinite;
+}
+
 @media screen and (max-width: 768px) {
   .ant-drawer {
-    z-index: 1200;
+    z-index: 999;
+  }
+  .ant-message {
+    z-index: 1201;
   }
   .ant-drawer-bottom > .ant-drawer-content-wrapper {
     position: fixed;

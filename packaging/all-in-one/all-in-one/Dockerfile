@@ -98,6 +98,7 @@ ENV \
     SERVER_DOMAIN= \
     SOCKET_DOMAIN=http://room-server:3333/socket \
     \
+    SKIP_REGISTER_VALIDATE=true \
     TEMPLATE_SPACE=spcNTxlv8Drra \
     \
     SOCKET_RECONNECTION_ATTEMPTS=10 \
@@ -108,6 +109,7 @@ ENV \
     SMS_ENABLED=false \
     \
     MAIL_ENABLED=false \
+    MAIL_TYPE=smtp \
     MAIL_HOST= \
     MAIL_PASSWORD= \
     MAIL_PORT= \
@@ -123,5 +125,5 @@ ENV \
     AWS_REGION=us-east-1 \
     \
     OSS_BUCKET_NAME=assets \
-    VK_ASSETS_LTD_BUCKET=assets \
-    VK_ASSETS_LTD_URL=assets
+    ASSETS_LTD_BUCKET=assets \
+    ASSETS_LTD_URL=assets
