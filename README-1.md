@@ -7,5 +7,8 @@
 
     # 项目中搜索 distributionUrl= ，将需要的 gradle版本 都下载后放在 /media/darcy/vms3/apitable-package-softs/nginx, 并将 下载地址替换成 nginx 下载地址
     
-    
+    # 打包
+    make install
+
+    make build-docker
 
