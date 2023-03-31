@@ -15,7 +15,11 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 FROM liquibase/liquibase:4.8
-RUN lpm add mysql --global
+
+RUN mkdir -vp /liquibase/lib/
+ADD mysql-connector-java-8.0.28.jar /liquibase/lib/mysql-connector-java-8.0.28.jar
+
+#RUN lpm add mysql --global
 ADD src/main/resources /liquibase/changelog
 
 ARG SEMVER_FULL

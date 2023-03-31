@@ -11,7 +11,7 @@ variable "SEMVER_FULL" {
 }
 
 variable "IMAGE_TAG" {
-  default = "latest"
+  default = "2023-03-31"
 }
 
 target "backend-server" {

@@ -13,7 +13,7 @@ export GID
 endif
 
 ifndef ENV_FILE
-ENV_FILE := .env
+ENV_FILE := .env.darcy
 export ENV_FILE
 endif
 
@@ -440,7 +440,7 @@ dataenv-logs:
 .PHONY: up
 up: _dataenv-volumes ## startup the application
 	@echo "Please execute 'make pull' first to download & upgrade all images to your machine."
-	docker compose up -d
+	docker compose -f docker-compose-darcy.yaml up -d
 
 .PHONY: down
 down: ## shutdown the application
