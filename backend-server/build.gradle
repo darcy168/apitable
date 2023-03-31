@@ -12,7 +12,16 @@ allprojects {
   group = "com.apitable"
   
   repositories {
-    mavenCentral()
+    maven { url=uri("https://maven.aliyun.com/repository/central") }
+maven { url=uri("https://maven.aliyun.com/repository/public/") }
+maven { url=uri("https://maven.aliyun.com/repository/google/") }
+maven { url=uri("https://maven.aliyun.com/repository/public/") }
+maven { url=uri("https://maven.aliyun.com/repository/public/") }
+maven { url=uri("https://maven.aliyun.com/repository/public/") }
+maven { url=uri("https://maven.aliyun.com/repository/public/") }
+maven { url=uri("https://maven.aliyun.com/repository/public/") }
+mavenCentral()
+
     // for ping++ sdk
     maven { url = uri("https://jcenter.bintray.com") }
   }
