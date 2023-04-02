@@ -31,8 +31,12 @@
 ### 1.3、openresty
     make build-docker-openresty
 
-### 1.4、room-server
-    make build-docker-room-server
+### 1.4、room-server、web-server
+
+    # 这俩模块需要使用docker build方式打包，并且需要开启 docker 代理模式
+
+    docker build --network host -f packaging/Dockerfile.room-server -t apitable/room-server:2023-03-31 .
+    docker build --network host -f packaging/Dockerfile.web-server -t apitable/web-server:2023-03-31 .
 
 ### 1.5、web-server
     make build-docker-web-server

@@ -25,7 +25,7 @@ plugins {
 repositories {
   maven {
   setAllowInsecureProtocol(true)
-  url=uri("http://mvn.webuilding.com:16031/repository/java-release/")
+  url=uri("http://192.168.6.105:16031/repository/java-release/")
   }
 
 
