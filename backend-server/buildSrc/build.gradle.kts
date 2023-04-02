@@ -23,6 +23,13 @@ plugins {
 }
 
 repositories {
+  maven {
+  setAllowInsecureProtocol(true)
+  url=uri("http://mvn.webuilding.com:16031/repository/java-release/")
+  }
+
+
+
   maven { url=uri("https://maven.aliyun.com/repository/central") }
 maven { url=uri("https://maven.aliyun.com/repository/public/") }
 maven { url=uri("https://maven.aliyun.com/repository/google/") }

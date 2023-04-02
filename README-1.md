@@ -12,3 +12,29 @@
 
     make build-docker
 
+
+
+
+
+
+
+
+## 1、分模块打包说明
+
+### 1.1、backend-server
+    # 已调 build.gradle Maven仓库地址为本地仓库地址；
+    make build-docker-backend-server
+
+### 1.2、init-db
+    make build-docker-init-db
+
+### 1.3、openresty
+    make build-docker-openresty
+
+### 1.4、room-server
+    make build-docker-room-server
+
+### 1.5、web-server
+    make build-docker-web-server
+
+    
