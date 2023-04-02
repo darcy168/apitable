@@ -240,8 +240,24 @@ buildpush-docker: ## build all and push all to hub.docker.io registry
 	$(BUILDER) $(target) --push
 
 .PHONY: build
-build-docker: ## build all containers
+build-docker-: ## build all containers
 	$(BUILDER) $(target) --load
+
+
+build-docker-backend-server: ## build all containers
+	$(BUILDER) $(target) -f docker-bake_backend-server.hcl --load
+build-docker-room-server: ## build all containers
+	$(BUILDER) $(target) -f docker-bake_room-server.hcl --load
+build-docker-web-server: ## build all containers
+	$(BUILDER) $(target) -f docker-bake_web-server.hcl --load
+build-docker-init-db: ## build all containers
+	$(BUILDER) $(target) -f docker-bake_init-db.hcl --load
+build-docker-openresty: ## build all containers
+	$(BUILDER) $(target) -f docker-bake_openresty.hcl --load
+build-docker-other: ## build all containers
+	$(BUILDER) $(target) -f docker-bake_other.hcl --load
+
+
 
 .PHONY: _build-init-db
 _build-docker-init-db:
