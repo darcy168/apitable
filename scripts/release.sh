@@ -2,7 +2,7 @@
 
 source ./common_util.sh
 
-work_dir="/media/darcy/softs/apt"
+work_dir="/root/apt-deploy-package"
 
 #rm -rf $work_dir
 #mkdir -pv $work_dir

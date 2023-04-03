@@ -2,7 +2,7 @@
 
 source ./common_util.sh
 
-work_dir="/media/darcy/softs/apt"
+work_dir="/root/apt-deploy-package"
 
 
 IMAGE_BACKEND_SERVER=`cat ./.env.darcy-deploy | grep IMAGE_BACKEND_SERVER | awk -F "=" '{print $2}'`
