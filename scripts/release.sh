@@ -4,8 +4,8 @@ source ./common_util.sh
 
 work_dir="/root/apt-deploy-package"
 
-#rm -rf $work_dir
-#mkdir -pv $work_dir
+rm -rf $work_dir
+mkdir -pv $work_dir
 
 cp ./.env.darcy-deploy $work_dir
 cp ./common_util.sh $work_dir
