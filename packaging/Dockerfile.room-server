@@ -15,8 +15,6 @@ COPY packages/core/package.json ./packages/core/
 COPY packages/room-native-api/package.json ./packages/room-native-api/
 
 COPY packages/room-server/package.json ./packages/room-server/
-ENV HTTP_PROXY="http://192.168.6.105:8001"
-ENV HTTPS_PROXY="https://192.168.6.105:8001"
 
 RUN yarn workspaces focus @apitable/room-server root
 
@@ -39,8 +37,6 @@ COPY packages/core ./packages/core
 COPY packages/room-native-api ./packages/room-native-api
 
 COPY packages/room-server ./packages/room-server
-ENV HTTP_PROXY="http://192.168.6.105:8001"
-ENV HTTPS_PROXY="https://192.168.6.105:8001"
 
 RUN yarn build:sr
 

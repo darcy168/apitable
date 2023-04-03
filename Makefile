@@ -240,7 +240,7 @@ buildpush-docker: ## build all and push all to hub.docker.io registry
 	$(BUILDER) $(target) --push
 
 .PHONY: build
-build-docker-: ## build all containers
+build-docker: ## build all containers
 	$(BUILDER) $(target) --load
 
 

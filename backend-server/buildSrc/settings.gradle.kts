@@ -18,17 +18,9 @@
 
 pluginManagement {
   repositories {
-    maven {
-  setAllowInsecureProtocol(true)
-  url=uri("http://192.168.6.105:16031/repository/java-release/")
-  }
 
 
 
-      maven {
-  setAllowInsecureProtocol(true)
-  url=uri("http://192.168.6.105:16031/repository/java-release/")
-  }
 
 
 
