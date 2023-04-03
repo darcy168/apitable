@@ -12,7 +12,7 @@ rm -rf room-server_3-runner
 docker rm -f room-server_1-deps
 cp packaging/dockerfile.root-server/1-deps ./
 docker build --network host --no-cache -f 1-deps -t room-server_1-deps:1.0 .
-# rm -f 1-deps
+rm -f 1-deps
 
 mkdir -p room-server_1-deps/room-server
 
