@@ -2,7 +2,7 @@
 
 source ./common_util.sh
 
-work_dir="/media/darcy/program/apitable-deploy-package"
+work_dir="/media/darcy/softs/apt"
 
 rm -rf $work_dir
 mkdir -pv $work_dir

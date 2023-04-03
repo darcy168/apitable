@@ -15,10 +15,10 @@ COPY web-server_2-web-builder/.yarnrc.yml ./
 COPY web-server_2-web-builder/package.json ./
 COPY web-server_2-web-builder/yarn.lock ./
 
-COPY web-server_2-web-builder/packages/datasheet/public ./packages/datasheet/public
-COPY web-server_2-web-builder/packages/datasheet/next.config.js ./packages/datasheet/
-COPY web-server_2-web-builder/packages/datasheet/font-weight-no-number.js ./packages/datasheet/
-COPY web-server_2-web-builder/packages/datasheet/package.json ./packages/datasheet/
+COPY web-server_2-web-builder/datasheet/public ./packages/datasheet/public
+COPY web-server_2-web-builder/datasheet/next.config.js ./packages/datasheet/
+COPY web-server_2-web-builder/datasheet/font-weight-no-number.js ./packages/datasheet/
+COPY web-server_2-web-builder/datasheet/package.json ./packages/datasheet/
 
 
 # Automatically leverage output traces to reduce image size

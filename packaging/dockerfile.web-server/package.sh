@@ -11,7 +11,7 @@ rm -rf web-server_3-web-runner
 # 构建 deps 镜像
 docker rm -f web-server_1-web-deps
 cp packaging/dockerfile.web-server/1-web-deps ./
-docker build --network host --no-cache -f 1-deps -t web-server_1-web-deps:1.0 .
+docker build --network host --no-cache -f 1-web-deps -t web-server_1-web-deps:1.0 .
 rm -f 1-web-deps
 
 # 从 deps 镜像 copy 文件
@@ -23,7 +23,7 @@ docker cp web-server_1-web-deps:/workspace-install/packages/datasheet/node_modul
 # 构建 builder 镜像
 docker rm -f web-server_2-web-builder
 cp packaging/dockerfile.web-server/2-web-builder ./
-docker build --network host --no-cache -f 2-builder -t web-server_2-web-builder:1.0 .
+docker build --network host --no-cache -f 2-web-builder -t web-server_2-web-builder:1.0 .
 rm -f 2-web-builder
 
 # 从 builder 镜像 copy 文件

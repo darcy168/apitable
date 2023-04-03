@@ -8,7 +8,7 @@ services:
     expose:
       - "8080"
     env_file:
-      - "${ENV_FILE:-.env.darcy}"
+      - "${ENV_FILE:-.env.darcy-deploy}"
     networks:
       - apitable
     ports:
@@ -34,7 +34,7 @@ services:
     pull_policy: ${IMAGE_PULL_POLICY:-if_not_present}
     restart: always
     env_file:
-      - "${ENV_FILE:-.env.darcy}"
+      - "${ENV_FILE:-.env.darcy-deploy}"
     expose:
       - "8081"
     environment:
@@ -66,7 +66,7 @@ services:
       - "3005"
       - "3007"
     env_file:
-      - "${ENV_FILE:-.env.darcy}"
+      - "${ENV_FILE:-.env.darcy-deploy}"
     environment:
       - NODE_ENV=${ENV}
       - NODE_OPTIONS=--max-old-space-size=2048 --max-http-header-size=80000
@@ -247,7 +247,7 @@ services:
     image: ${IMAGE_REGISTRY}/${IMAGE_INIT_APPDATA}
     pull_policy: ${IMAGE_PULL_POLICY:-if_not_present}
     env_file:
-      - "${ENV_FILE:-.env.darcy}"
+      - "${ENV_FILE:-.env.darcy-deploy}"
     networks:
       - apitable
     depends_on:

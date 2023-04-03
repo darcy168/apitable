@@ -2,7 +2,7 @@
 
 source ./common_util.sh
 
-work_dir="/media/darcy/program/apitable-deploy-package"
+work_dir="/media/darcy/softs/apt"
 
 
 IMAGE_BACKEND_SERVER=`cat ./.env.darcy-deploy | grep IMAGE_BACKEND_SERVER | awk -F "=" '{print $2}'`
@@ -82,7 +82,7 @@ docker save $IMAGE_RABBITMQ | gzip >> $work_dir/rabbitmq.tgz
 
 docker save $IMAGE_REDIS | gzip >> $work_dir/redis.tgz
 
-docker save $IMAGE_REGISTRY | gzip >> $work_dir/registry.tgz
+docker save $IMAGE_MYSQL | gzip >> $work_dir/mysql.tgz
 
 
 

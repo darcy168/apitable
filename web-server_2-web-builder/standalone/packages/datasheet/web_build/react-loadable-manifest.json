@@ -1,0 +1,1215 @@
+{
+  "../src/pc/components/api_panel/field_codes/field_codes.tsx -> ./doc_inner_html": {
+    "id": 868283,
+    "files": [
+      "static/chunks/3054.b8e4f72134d8fcc9.js",
+      "static/chunks/6306.86cf2b4569aa0a7e.js",
+      "static/css/b5ea8550bdb946fe.css",
+      "static/chunks/8283.4cba771f6483c67d.js"
+    ]
+  },
+  "../src/pc/components/common/emoji/emoji.tsx -> emoji-mart/dist/components/emoji/emoji": {
+    "id": 250382,
+    "files": []
+  },
+  "../src/pc/components/common/emoji/emoji.tsx -> emoji-mart/dist/components/picker/picker": {
+    "id": 425384,
+    "files": [
+      "static/chunks/5384.1846f3af1632c56b.js"
+    ]
+  },
+  "../src/pc/components/common/notify/notify.tsx -> modules/shared/shortcut_key": {
+    "id": 2302,
+    "files": []
+  },
+  "../src/pc/components/datasheet_pane/datasheet_pane.tsx -> pc/components/robot/robot_panel/robot_panel": {
+    "id": 742436,
+    "files": [
+      "static/chunks/3054.b8e4f72134d8fcc9.js",
+      "static/chunks/5818.4fee6a6b9a54252a.js",
+      "static/css/5ea3d670af4e19e9.css",
+      "static/chunks/2436.a13b8f725dcc9f8d.js"
+    ]
+  },
+  "../src/pc/components/development/dev_tools_panel/apply_backup_data/apply_backup_data.tsx -> exceljs": {
+    "id": 994850,
+    "files": [
+      "static/chunks/d4a59ef1.80de91849946108e.js"
+    ]
+  },
+  "../src/pc/components/development/dev_tools_panel/dev_tools_panel.tsx -> eruda": {
+    "id": 996975,
+    "files": [
+      "static/chunks/6f2a8ed2.51c42c2957ef1eb9.js"
+    ]
+  },
+  "../src/pc/components/editors/date_time_editor/date_time_editor.tsx -> ./date_picker": {
+    "id": 419973,
+    "files": [
+      "static/chunks/9973.60e971a34d57c9d6.js"
+    ]
+  },
+  "../src/pc/components/form_container/form_container.tsx -> lottie-web/build/player/lottie_svg": {
+    "id": 667611,
+    "files": []
+  },
+  "../src/pc/components/gantt_view/components/task/task.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/components/task/task.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/shape": {
+    "id": 707771,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/7771.1c247094083944fe.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/components/task/task_content.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/shape": {
+    "id": 707771,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/7771.1c247094083944fe.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/components/task/task_lines.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/arrow": {
+    "id": 753484,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/3484.592bf29ab0b0188c.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/components/task/task_lines.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/components/task_group_header/task_group_header.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/gantt/gantt.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/gantt/gantt.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/layer": {
+    "id": 670143,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/143.a03c596002541b8a.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/gantt_stage/gantt_stage.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/stage": {
+    "id": 583684,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/3684.829b4d245f815c11.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/group/brand_desc.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/group/button.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/group/gantt_task.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/group/status.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/hooks/use_brand_desc.tsx -> pc/components/gantt_view/group/brand_desc": {
+    "id": 840200,
+    "files": [
+      "static/chunks/200.3a38b36c87765a22.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/hooks/use_gantt_button.tsx -> pc/components/gantt_view/group/button": {
+    "id": 179813,
+    "files": [
+      "static/chunks/9813.3d3952a5fcd9ccfc.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/hooks/use_gantt_drawing_line.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/arrow": {
+    "id": 753484,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/3484.592bf29ab0b0188c.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/hooks/use_gantt_drawing_line.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/circle": {
+    "id": 742776,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/2776.c13de7fc5b9b2989.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/hooks/use_gantt_drawing_line.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/hooks/use_gantt_status.tsx -> pc/components/gantt_view/group/status": {
+    "id": 262694,
+    "files": [
+      "static/chunks/2694.690e6ee4dbcc4ec9.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/hooks/use_gantt_task_line_setting_modal.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/arrow": {
+    "id": 753484,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/3484.592bf29ab0b0188c.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/hooks/use_gantt_task_line_setting_modal.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/hooks/use_gantt_task_line_setting_modal.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/line": {
+    "id": 445944,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/5944.136dfb1f775afcb8.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/hooks/use_gantt_task_line_setting_modal.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/rect": {
+    "id": 724013,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4013.caf29be1900ca987.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/hooks/use_gantt_tasks.tsx -> pc/components/gantt_view/group/gantt_task": {
+    "id": 36533,
+    "files": [
+      "static/chunks/6533.029398ba0a846bca.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/hooks/use_gantt_timeline.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/circle": {
+    "id": 742776,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/2776.c13de7fc5b9b2989.js"
+    ]
+  },
+  "../src/pc/components/gantt_view/hooks/use_gantt_timeline.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/invite/invite_outsider/components/before_upload.tsx -> exceljs": {
+    "id": 994850,
+    "files": [
+      "static/chunks/d4a59ef1.80de91849946108e.js"
+    ]
+  },
+  "../src/pc/components/invite/invite_outsider/components/records.tsx -> exceljs": {
+    "id": 994850,
+    "files": [
+      "static/chunks/d4a59ef1.80de91849946108e.js"
+    ]
+  },
+  "../src/pc/components/konva_components/components/icon.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/circle": {
+    "id": 742776,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/2776.c13de7fc5b9b2989.js"
+    ]
+  },
+  "../src/pc/components/konva_components/components/icon.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/konva_components/components/icon.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/path": {
+    "id": 234361,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4361.83543bae1b01fab1.js"
+    ]
+  },
+  "../src/pc/components/konva_components/components/image.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/konva_components/components/image.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/image": {
+    "id": 152707,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/2707.4776dae91ee648f3.js"
+    ]
+  },
+  "../src/pc/components/konva_components/components/line.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/line": {
+    "id": 445944,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/5944.136dfb1f775afcb8.js"
+    ]
+  },
+  "../src/pc/components/konva_components/components/rect.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/rect": {
+    "id": 724013,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4013.caf29be1900ca987.js"
+    ]
+  },
+  "../src/pc/components/konva_components/components/text.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/text": {
+    "id": 846745,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/6745.c1efca6ed37a9ac2.js"
+    ]
+  },
+  "../src/pc/components/konva_components/components/tooltip.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/label": {
+    "id": 979119,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/9119.511d7ace48239e51.js"
+    ]
+  },
+  "../src/pc/components/konva_components/components/tooltip.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/tag": {
+    "id": 834724,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4724.2a52c451e2f92f3c.js"
+    ]
+  },
+  "../src/pc/components/konva_components/components/transformer.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/transformer": {
+    "id": 997748,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/7748.ff94e2363ec91b8c.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/components/cell/cell_formula/cell_formula.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/components/cell/cell_link/cell_link.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/components/cell/cell_member/avatar.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/circle": {
+    "id": 742776,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/2776.c13de7fc5b9b2989.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/components/cell/cell_member/avatar.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/components/cell/cell_member/cell_member.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/components/cell/cell_multi_select/cell_multi_select.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/components/cell/cell_other/group_tab.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/components/cell/cell_single_select/cell_single_select.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/components/cell_scroll_container/cell_scroll_container.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/components/field_head/field_head.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/components/operation_area/row_head_operation.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/components/stat/stat.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/hooks/use_grid.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/hooks/use_grid_cell_collaborator.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/circle": {
+    "id": 742776,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/2776.c13de7fc5b9b2989.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/hooks/use_grid_cell_collaborator.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/hooks/use_grid_cells.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/shape": {
+    "id": 707771,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/7771.1c247094083944fe.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/hooks/use_grid_dynamic_cells.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/rect": {
+    "id": 724013,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4013.caf29be1900ca987.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/hooks/use_grid_stats.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/hooks/use_grid_stats.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/line": {
+    "id": 445944,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/5944.136dfb1f775afcb8.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/konva_grid.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/group": {
+    "id": 904506,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/4506.68ade5885facc98c.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/konva_grid.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/layer": {
+    "id": 670143,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/143.a03c596002541b8a.js"
+    ]
+  },
+  "../src/pc/components/konva_grid/konva_grid_stage.tsx -> pc/components/gantt_view/hooks/use_gantt_timeline/stage": {
+    "id": 583684,
+    "files": [
+      "static/chunks/3873.ad25ee1765889fec.js",
+      "static/chunks/3684.829b4d245f815c11.js"
+    ]
+  },
+  "../src/pc/components/navigation/navigation.tsx -> lottie-web/build/player/lottie_svg": {
+    "id": 667611,
+    "files": []
+  },
+  "../src/pc/components/navigation/user_menu/user_menu.tsx -> lottie-web/build/player/lottie_svg": {
+    "id": 667611,
+    "files": []
+  },
+  "../src/pc/components/network_status/network_status.tsx -> lottie-web/build/player/lottie_svg": {
+    "id": 667611,
+    "files": []
+  },
+  "../src/pc/components/notification/card/handle_msg.tsx -> lottie-web/build/player/lottie_svg": {
+    "id": 667611,
+    "files": []
+  },
+  "../src/pc/components/preview_file/preview_main/util.ts -> jszip": {
+    "id": 1297,
+    "files": [
+      "static/chunks/1297.25fa4d97bfe8c6a5.js"
+    ]
+  },
+  "../src/pc/components/preview_file/preview_type/preview_type.tsx -> ./preview_media/preview_media": {
+    "id": 217415,
+    "files": [
+      "static/chunks/b03bc415.3ad9589f927019f4.js",
+      "static/chunks/7415.420f85d8875fd458.js"
+    ]
+  },
+  "../src/pc/components/preview_file/preview_type/preview_type.tsx -> ./preview_pdf/preview_pdf": {
+    "id": 135480,
+    "files": [
+      "static/chunks/665adb41.fb22d7d0cff9f35d.js",
+      "static/chunks/8440.1e47b3d0028a5ce6.js",
+      "static/css/cb16f755ca25deaf.css",
+      "static/chunks/5137.5c1131e126d5c708.js"
+    ]
+  },
+  "../src/pc/components/route_manager/management_router.tsx -> pc/components/space_manage/space_manage": {
+    "id": 927704,
+    "files": [
+      "static/css/d07ce563b935beaf.css",
+      "static/chunks/7704.853332a3e9ea479e.js"
+    ]
+  },
+  "../src/pc/components/template_centre/template_category_detail/template_category_detail.tsx -> pc/components/common/modal/modal/modal": {
+    "id": 128680,
+    "files": []
+  },
+  "../src/pc/hooks/use_navigator_name.ts -> emoji-mart/dist/utils/emoji-index/emoji-index": {
+    "id": 102668,
+    "files": [
+      "static/chunks/2668.f5e9f4ec2ad35f3e.js"
+    ]
+  },
+  "../src/pc/hooks/use_template_request.ts -> pc/components/common/modal/modal/modal": {
+    "id": 128680,
+    "files": []
+  },
+  "../src/pc/utils/catalog.ts -> exceljs": {
+    "id": 994850,
+    "files": [
+      "static/chunks/d4a59ef1.80de91849946108e.js"
+    ]
+  },
+  "../src/pc/utils/os.ts -> current-device": {
+    "id": 807350,
+    "files": [
+      "static/chunks/7350.925cda1c73c4337e.js"
+    ]
+  },
+  "../src/reportWebVitals.ts -> web-vitals": {
+    "id": 159543,
+    "files": [
+      "static/chunks/9543.4223b1b174144138.js"
+    ]
+  },
+  "404.tsx -> pc/components/invalid_page/no_match/no_match": {
+    "id": 617345,
+    "files": [
+      "static/css/ee1a3da152c618f9.css",
+      "static/chunks/7345.cadc75711e644183.js"
+    ]
+  },
+  "_app.tsx -> ../src/preIndex": {
+    "id": 605012,
+    "files": [
+      "static/chunks/5012.07bc1183339c7bfb.js"
+    ]
+  },
+  "_app.tsx -> element-scroll-polyfill": {
+    "id": 260036,
+    "files": [
+      "static/chunks/36.4c312db072f37553.js"
+    ]
+  },
+  "_app.tsx -> pc/components/route_manager/router_provider": {
+    "id": 962182,
+    "files": [
+      "static/chunks/2182.80be8b469b7a0216.js"
+    ]
+  },
+  "_app.tsx -> polyfill-object.fromentries": {
+    "id": 354718,
+    "files": [
+      "static/chunks/4718.8b4b9d174c4df465.js"
+    ]
+  },
+  "_app.tsx -> theme_wrapper": {
+    "id": 902832,
+    "files": [
+      "static/chunks/2832.5071ae70e6c25a1e.js"
+    ]
+  },
+  "_error.tsx -> error_page": {
+    "id": 87569,
+    "files": []
+  },
+  "embed/[...all].tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "invite/link/confirm.tsx -> pc/components/invite/link_invite/link_confirm": {
+    "id": 583237,
+    "files": [
+      "static/css/484cca3b87739910.css",
+      "static/chunks/3237.1d17d3af13582afb.js"
+    ]
+  },
+  "invite/link/index.tsx -> pc/components/invite/link_invite/link_invite": {
+    "id": 496312,
+    "files": [
+      "static/chunks/6312.bc6565693fdcbbb0.js"
+    ]
+  },
+  "invite/link/invalid.tsx -> pc/components/invite/link_invite/link_invalid": {
+    "id": 447551,
+    "files": [
+      "static/css/ef46db3751d8e999.css",
+      "static/chunks/7551.fdce23202d76cd27.js"
+    ]
+  },
+  "invite/link/login.tsx -> pc/components/invite/link_invite/link_login": {
+    "id": 71372,
+    "files": [
+      "static/css/bfeac29bf71f8ae5.css",
+      "static/chunks/1372.069ef73051e22aa1.js"
+    ]
+  },
+  "invite/mail/bindphone.tsx -> pc/components/invite/mail_invite/mail_bind_phone": {
+    "id": 343458,
+    "files": [
+      "static/css/e32c5500bcec6db4.css",
+      "static/chunks/3458.6eea8c81ec2e78ac.js"
+    ]
+  },
+  "invite/mail/index.tsx -> pc/components/invite/mail_invite/mail_invite": {
+    "id": 166529,
+    "files": [
+      "static/chunks/6529.eebf82cac8791a0b.js"
+    ]
+  },
+  "invite/mail/invalid.tsx -> pc/components/invite/mail_invite/mail_invalid": {
+    "id": 210102,
+    "files": [
+      "static/css/ef46db3751d8e999.css",
+      "static/chunks/102.566697f8a63b1f5d.js"
+    ]
+  },
+  "invite/mail/login.tsx -> pc/components/invite/mail_invite/mail_login": {
+    "id": 461951,
+    "files": [
+      "static/css/e32c5500bcec6db4.css",
+      "static/chunks/1951.6185562ce89697d8.js"
+    ]
+  },
+  "invite/mail/mismatch.tsx -> pc/components/invite/mail_invite/mail_mismatch": {
+    "id": 102737,
+    "files": [
+      "static/css/89c3b958f90c0a0f.css",
+      "static/chunks/2737.0c3d84881530ee1f.js"
+    ]
+  },
+  "login/index.tsx -> pc/components/home": {
+    "id": 139155,
+    "files": [
+      "static/chunks/9155.76684d39c6013869.js"
+    ]
+  },
+  "management/log/index.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "management/log/index.tsx -> pc/components/route_manager/management_router": {
+    "id": 365705,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/chunks/4773.72328322f2acd1c5.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js",
+      "static/css/d2465a1be62910d9.css",
+      "static/chunks/7826.3d90bfcb6215d3c4.js",
+      "static/css/6572c08e8c7690f2.css",
+      "static/chunks/5705.556b89ba13f0f853.js"
+    ]
+  },
+  "management/log/index.tsx -> pc/components/space_manage/manage_auth": {
+    "id": 690864,
+    "files": [
+      "static/css/934d88de898dcf48.css",
+      "static/chunks/864.88de6bdf4c1cff71.js"
+    ]
+  },
+  "management/managemember/index.tsx -> pc/components/route_manager/management_router": {
+    "id": 365705,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/chunks/4773.72328322f2acd1c5.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js",
+      "static/css/d2465a1be62910d9.css",
+      "static/chunks/7826.3d90bfcb6215d3c4.js",
+      "static/css/6572c08e8c7690f2.css",
+      "static/chunks/5705.556b89ba13f0f853.js"
+    ]
+  },
+  "management/managemember/index.tsx -> pc/components/space_manage/manage_auth": {
+    "id": 690864,
+    "files": [
+      "static/css/934d88de898dcf48.css",
+      "static/chunks/864.88de6bdf4c1cff71.js"
+    ]
+  },
+  "management/managemember/index.tsx -> pc/components/space_manage/space_member_manage": {
+    "id": 834681,
+    "files": [
+      "static/chunks/644.cbac71495cfd30b2.js",
+      "static/css/ad8ac21c807d02e3.css",
+      "static/chunks/4681.0a9b8e8e82533ad3.js"
+    ]
+  },
+  "management/manager/index.tsx -> pc/components/route_manager/management_router": {
+    "id": 365705,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/chunks/4773.72328322f2acd1c5.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js",
+      "static/css/d2465a1be62910d9.css",
+      "static/chunks/7826.3d90bfcb6215d3c4.js",
+      "static/css/6572c08e8c7690f2.css",
+      "static/chunks/5705.556b89ba13f0f853.js"
+    ]
+  },
+  "management/manager/index.tsx -> pc/components/space_manage/manage_auth": {
+    "id": 690864,
+    "files": [
+      "static/css/934d88de898dcf48.css",
+      "static/chunks/864.88de6bdf4c1cff71.js"
+    ]
+  },
+  "management/manager/index.tsx -> pc/components/space_manage/manager": {
+    "id": 309915,
+    "files": [
+      "static/chunks/644.cbac71495cfd30b2.js",
+      "static/css/e90d051cad2709a5.css",
+      "static/chunks/9915.e9d4b28656a5eefc.js"
+    ]
+  },
+  "management/marketing/index.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "management/marketing/index.tsx -> pc/components/route_manager/management_router": {
+    "id": 365705,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/chunks/4773.72328322f2acd1c5.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js",
+      "static/css/d2465a1be62910d9.css",
+      "static/chunks/7826.3d90bfcb6215d3c4.js",
+      "static/css/6572c08e8c7690f2.css",
+      "static/chunks/5705.556b89ba13f0f853.js"
+    ]
+  },
+  "management/marketing/index.tsx -> pc/components/space_manage/manage_auth": {
+    "id": 690864,
+    "files": [
+      "static/css/934d88de898dcf48.css",
+      "static/chunks/864.88de6bdf4c1cff71.js"
+    ]
+  },
+  "management/overview/index.tsx -> pc/components/route_manager/management_router": {
+    "id": 365705,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/chunks/4773.72328322f2acd1c5.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js",
+      "static/css/d2465a1be62910d9.css",
+      "static/chunks/7826.3d90bfcb6215d3c4.js",
+      "static/css/6572c08e8c7690f2.css",
+      "static/chunks/5705.556b89ba13f0f853.js"
+    ]
+  },
+  "management/overview/index.tsx -> pc/components/space_manage/space_info/space_cockpit": {
+    "id": 871019,
+    "files": [
+      "static/chunks/644.cbac71495cfd30b2.js",
+      "static/css/f084ebd97f6f5266.css",
+      "static/chunks/1019.c139a68aebc12455.js"
+    ]
+  },
+  "management/role/index.tsx -> pc/components/route_manager/management_router": {
+    "id": 365705,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/chunks/4773.72328322f2acd1c5.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js",
+      "static/css/d2465a1be62910d9.css",
+      "static/chunks/7826.3d90bfcb6215d3c4.js",
+      "static/css/6572c08e8c7690f2.css",
+      "static/chunks/5705.556b89ba13f0f853.js"
+    ]
+  },
+  "management/role/index.tsx -> pc/components/space_manage/manage_auth": {
+    "id": 690864,
+    "files": [
+      "static/css/934d88de898dcf48.css",
+      "static/chunks/864.88de6bdf4c1cff71.js"
+    ]
+  },
+  "management/role/index.tsx -> pc/components/space_manage/role/role": {
+    "id": 675992,
+    "files": [
+      "static/chunks/644.cbac71495cfd30b2.js",
+      "static/css/fe3793beac63654c.css",
+      "static/chunks/5992.281a54f6764f1231.js"
+    ]
+  },
+  "management/security/index.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "management/security/index.tsx -> pc/components/route_manager/management_router": {
+    "id": 365705,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/chunks/4773.72328322f2acd1c5.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js",
+      "static/css/d2465a1be62910d9.css",
+      "static/chunks/7826.3d90bfcb6215d3c4.js",
+      "static/css/6572c08e8c7690f2.css",
+      "static/chunks/5705.556b89ba13f0f853.js"
+    ]
+  },
+  "management/security/index.tsx -> pc/components/space_manage/manage_auth": {
+    "id": 690864,
+    "files": [
+      "static/css/934d88de898dcf48.css",
+      "static/chunks/864.88de6bdf4c1cff71.js"
+    ]
+  },
+  "management/test-function/index.tsx -> pc/components/navigation/account_center_modal/test_function": {
+    "id": 101322,
+    "files": []
+  },
+  "management/test-function/index.tsx -> pc/components/route_manager/management_router": {
+    "id": 365705,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/chunks/4773.72328322f2acd1c5.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js",
+      "static/css/d2465a1be62910d9.css",
+      "static/chunks/7826.3d90bfcb6215d3c4.js",
+      "static/css/6572c08e8c7690f2.css",
+      "static/chunks/5705.556b89ba13f0f853.js"
+    ]
+  },
+  "management/upgrade/index.tsx -> pc/components/route_manager/management_router": {
+    "id": 365705,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/chunks/4773.72328322f2acd1c5.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js",
+      "static/css/d2465a1be62910d9.css",
+      "static/chunks/7826.3d90bfcb6215d3c4.js",
+      "static/css/6572c08e8c7690f2.css",
+      "static/chunks/5705.556b89ba13f0f853.js"
+    ]
+  },
+  "management/upgrade/index.tsx -> pc/components/space_manage/upgrade_space/upgrade_space": {
+    "id": 302845,
+    "files": [
+      "static/css/381fc7be7f96fb89.css",
+      "static/chunks/2845.1ed62a9ddc70700b.js"
+    ]
+  },
+  "management/workbench/index.tsx -> pc/components/route_manager/management_router": {
+    "id": 365705,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/chunks/4773.72328322f2acd1c5.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js",
+      "static/css/d2465a1be62910d9.css",
+      "static/chunks/7826.3d90bfcb6215d3c4.js",
+      "static/css/6572c08e8c7690f2.css",
+      "static/chunks/5705.556b89ba13f0f853.js"
+    ]
+  },
+  "management/workbench/index.tsx -> pc/components/space_manage/manage_auth": {
+    "id": 690864,
+    "files": [
+      "static/css/934d88de898dcf48.css",
+      "static/chunks/864.88de6bdf4c1cff71.js"
+    ]
+  },
+  "management/workbench/index.tsx -> pc/components/space_manage/workbench": {
+    "id": 187207,
+    "files": [
+      "static/css/4f0aa292def45ae5.css",
+      "static/chunks/7207.387a10908b7dd96f.js"
+    ]
+  },
+  "notify/index.tsx -> pc/components/route_manager/notify_router": {
+    "id": 82811,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/chunks/4773.72328322f2acd1c5.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js",
+      "static/css/d2465a1be62910d9.css",
+      "static/chunks/7826.3d90bfcb6215d3c4.js",
+      "static/css/6572c08e8c7690f2.css",
+      "static/chunks/2811.0f37c3cad74ed0d8.js"
+    ]
+  },
+  "org/[[...index]].tsx -> pc/components/route_manager/org_router": {
+    "id": 514843,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/chunks/4773.72328322f2acd1c5.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js",
+      "static/css/d2465a1be62910d9.css",
+      "static/chunks/7826.3d90bfcb6215d3c4.js",
+      "static/css/310635bd22d14c46.css",
+      "static/chunks/4843.ab02abb21c50499f.js"
+    ]
+  },
+  "share/[...all].tsx -> ../../src/pc/components/share/share": {
+    "id": 966615,
+    "files": []
+  },
+  "space/[space_id]/upgrade.tsx -> pc/components/route_manager/upgrade_router": {
+    "id": 631194,
+    "files": [
+      "static/css/6572c08e8c7690f2.css",
+      "static/chunks/1194.e2a19dd825c04802.js"
+    ]
+  },
+  "template/[category_code]/[...template_id]/index.tsx -> pc/components/template_centre/template_centre": {
+    "id": 869668,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/chunks/4773.72328322f2acd1c5.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js",
+      "static/css/d2465a1be62910d9.css",
+      "static/chunks/7826.3d90bfcb6215d3c4.js",
+      "static/css/449283f8c9d3706f.css",
+      "static/chunks/9668.71442ab561a7b81d.js"
+    ]
+  },
+  "template/[category_code]/[...template_id]/index.tsx -> pc/components/template_centre/template_detail": {
+    "id": 988752,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js"
+    ]
+  },
+  "template/[category_code]/index.tsx -> pc/components/template_centre/template_centre": {
+    "id": 869668,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/chunks/4773.72328322f2acd1c5.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js",
+      "static/css/d2465a1be62910d9.css",
+      "static/chunks/7826.3d90bfcb6215d3c4.js",
+      "static/css/449283f8c9d3706f.css",
+      "static/chunks/9668.71442ab561a7b81d.js"
+    ]
+  },
+  "template/[category_code]/index.tsx -> pc/components/template_centre/template_preview": {
+    "id": 573145,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/chunks/4085.45c80f3b3bc902cc.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js",
+      "static/css/026b2b540f7c657b.css",
+      "static/chunks/9749.3701d2b8c64c0f66.js"
+    ]
+  },
+  "template/album/[album_id].tsx -> pc/components/template_centre/album/album": {
+    "id": 985669,
+    "files": [
+      "static/chunks/3054.b8e4f72134d8fcc9.js",
+      "static/css/a0ead30175933bf1.css",
+      "static/chunks/5669.6e6cde1bf76e6013.js"
+    ]
+  },
+  "template/album/[album_id].tsx -> pc/components/template_centre/template_centre": {
+    "id": 869668,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/chunks/4773.72328322f2acd1c5.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js",
+      "static/css/d2465a1be62910d9.css",
+      "static/chunks/7826.3d90bfcb6215d3c4.js",
+      "static/css/449283f8c9d3706f.css",
+      "static/chunks/9668.71442ab561a7b81d.js"
+    ]
+  },
+  "template/index.tsx -> pc/components/template_centre/template_centre": {
+    "id": 869668,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/chunks/4773.72328322f2acd1c5.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js",
+      "static/css/d2465a1be62910d9.css",
+      "static/chunks/7826.3d90bfcb6215d3c4.js",
+      "static/css/449283f8c9d3706f.css",
+      "static/chunks/9668.71442ab561a7b81d.js"
+    ]
+  },
+  "template/index.tsx -> pc/components/template_centre/template_preview": {
+    "id": 573145,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/chunks/4085.45c80f3b3bc902cc.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js",
+      "static/css/026b2b540f7c657b.css",
+      "static/chunks/3145.2289f924d7cc023f.js"
+    ]
+  },
+  "user/apply_logout.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/create_space.tsx -> pc/components/create_space/create_space": {
+    "id": 107781,
+    "files": []
+  },
+  "user/dingtalk/admin.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/dingtalk/callback.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/dingtalk/login.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/dingtalk/social_bind_space.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/dingtalk/social_login.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/dingtalk/unbound_err.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/dingtalk_callback.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/email_verification.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/feishu/admin.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/feishu/admin_login.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/feishu/auth.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/feishu/bind_space.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/feishu/bind_user.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/feishu/configure.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/feishu/err.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/feishu/error.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/idaas/callback.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/improving_info.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/index.tsx -> pc/components/invalid_page/no_match/no_match": {
+    "id": 617345,
+    "files": [
+      "static/css/ee1a3da152c618f9.css",
+      "static/chunks/7345.cadc75711e644183.js"
+    ]
+  },
+  "user/invitation_validation.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/lark/config/error.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/lark/integration/bind/[appInstanceId].tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/lark/integration/config/[appInstanceId].tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/lark/integration/sync/[appInstanceId].tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/qq_connect/callback.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/reset_password.tsx -> pc/components/reset_password/reset_password": {
+    "id": 744557,
+    "files": [
+      "static/css/ca2349beea59f902.css",
+      "static/chunks/4557.2691f93dfa487d76.js"
+    ]
+  },
+  "user/set_nickname.tsx -> pc/components/setting_nickname/setting_nickname": {
+    "id": 979728,
+    "files": [
+      "static/css/215becfc16988fcb.css",
+      "static/chunks/9728.91d6c6ebe09eec2c.js"
+    ]
+  },
+  "user/social/syncing.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/wechat/callback.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/wecom_shop/admin.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "user/wecom_shop/social_login.tsx -> enterprise": {
+    "id": 914463,
+    "files": []
+  },
+  "widget-stage/index.tsx -> widget-stage": {
+    "id": 297945,
+    "files": [
+      "static/css/953c483d7cdcd2e5.css",
+      "static/chunks/7945.e03844a51d891415.js"
+    ]
+  },
+  "workbench/[[...all]].tsx -> pc/components/route_manager/workbench_router": {
+    "id": 304175,
+    "files": [
+      "static/chunks/6694.92ef8168029512a3.js",
+      "static/chunks/4773.72328322f2acd1c5.js",
+      "static/css/934d88de898dcf48.css",
+      "static/css/ced0bad03691ef49.css",
+      "static/chunks/2779.28253860b98023d9.js",
+      "static/css/d2465a1be62910d9.css",
+      "static/chunks/7826.3d90bfcb6215d3c4.js",
+      "static/css/92636b6b919deafd.css",
+      "static/chunks/4175.81d85b2279786429.js"
+    ]
+  }
+}
